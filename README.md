@@ -1,4 +1,4 @@
-# ZCU216 QICK Real-Time Qubit Readout
+# Low Latency ZCU216 QICK Real-Time Qubit Readout
 
 Low-latency, deterministic FPGA pipeline for neutral-atom quantum-computer qubit readout. Classifies 100 qubits (10×10 array) on a Xilinx ZCU216 RFSoC every frame, with the decision vector fed back to QICK tProc for mid-circuit control. Built around a fully pipelined 520 MHz PL datapath and a thin PYNQ host driver.
 
